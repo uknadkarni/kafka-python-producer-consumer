@@ -1,22 +1,24 @@
 # Confluent Cloud Kafka Producer and Consumer Examples
 These Python scripts demonstrate how to create a basic Kafka producer and consumer for use with Confluent Cloud. The code is adapted from the Confluent Developer getting started guide for Python, specifically focusing on producers and consumers for Confluent Cloud.
+
 ## Contents:
 1. producer.py - A sample Kafka producer
 2. consumer.py - A sample Kafka consumer
 3. requirements.txt - A file listing required Python packages
+
 ## Prerequisites:
 * Python 3.x
 * Confluent Cloud account and credentials
 * A topic named `purchases` with 1 partition and no schema
+
 ## Setup:
 1. Install the required library by using the provided requirements.txt file:
 ```
 pip install -r requirements.txt
 ```
 2. Set up your Confluent Cloud environment variables:
-`
-CONFLUENT_CLOUD_BOOTSTRAP_SERVERS, CONFLUENT_CLOUD_API_KEY, CONFLUENT_CLOUD_SECRET
-`
+`CONFLUENT_CLOUD_BOOTSTRAP_SERVERS`, `CONFLUENT_CLOUD_API_KEY`, `CONFLUENT_CLOUD_SECRET`
+
 ## Usage:
 1. Run the producer:
 ```
