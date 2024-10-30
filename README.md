@@ -14,9 +14,11 @@ These Python scripts demonstrate how to create a basic Kafka producer and consum
 pip install -r requirements.txt
 ```
 2. Set up your Confluent Cloud environment variables:
+`
 CONFLUENT_CLOUD_BOOTSTRAP_SERVERS
 CONFLUENT_CLOUD_API_KEY
 CONFLUENT_CLOUD_SECRET
+`
 ## Usage:
 1. Run the producer:
 ```
