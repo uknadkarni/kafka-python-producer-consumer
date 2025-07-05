@@ -42,4 +42,8 @@ if __name__ == '__main__':
         pass
     finally:
         # Leave group and commit final offsets
+<<<<<<< HEAD
         consumer.close()
+=======
+        consumer.close()
+>>>>>>> e00fa9c (Initial commit: Kafka Python producer-consumer demo)
