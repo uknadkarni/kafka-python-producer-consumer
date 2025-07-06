@@ -45,8 +45,4 @@ if __name__ == '__main__':
 
     # Block until the messages are sent.
     producer.poll(10000)
-<<<<<<< HEAD
     producer.flush()
-=======
-    producer.flush()
->>>>>>> e00fa9c (Initial commit: Kafka Python producer-consumer demo)
